@@ -1,14 +1,14 @@
 # Ex-01_DS_Data_Cleansing
 
 
-### AIM :
+### AIM 
 To read the given data and perform data cleaning and save the cleaned data to a file. 
 
-# Explanation :
+# Explanation 
 Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect ,incompleted , irrelevant , duplicated or improperly formatted. 
 Data cleaning is not simply about erasing data ,but rather finding a way to maximize datasets accuracy without necessarily deleting the information. 
 
-### ALGORITHM :
+### ALGORITHM 
 ### STEP 1
 Read the given Data
 ### STEP 2
@@ -19,7 +19,7 @@ Remove the null values from the data
 Save the Clean data to the file
 
 
-### CODE :
+### CODE 
 ```
 import pandas as pd 
 df=pd.read_csv('Data_set.csv')
@@ -35,10 +35,10 @@ print(df)
 print('After Cleansing the data:')
 print(df.isnull().sum())
 ```
-### OUPUT:
+### OUPUT
 ![image](https://user-images.githubusercontent.com/94810884/160634158-1fa0120f-ecf9-40e3-9997-e0fbbfec18ee.png)
 ![image](https://user-images.githubusercontent.com/94810884/160634208-8c18101a-ed6f-4499-a695-ce165b0bfc54.png)
 
-### RESULT :
+### RESULT 
 Thus the given data is read cleaned and the cleaned data has been saved to the file.
 
